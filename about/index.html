@@ -5,13 +5,20 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh-Hans">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
 
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
 
 
 
@@ -115,16 +122,16 @@
 
 
 
-<meta name="description" content="Hello World!!!">
+<meta name="description" content="本人程序员一名，目前在苏州工作。 领域.NetVue.jsJavaScript / Node.js以及其他 Web domain相关，无论前端还是后端 联系方式GitHub：微博：微信：邮箱：egger#outlook.com">
 <meta property="og:type" content="website">
-<meta property="og:title" content="关于">
+<meta property="og:title" content="Anduril">
 <meta property="og:url" content="http://anduril.cn/about/index.html">
 <meta property="og:site_name" content="Anduril">
-<meta property="og:description" content="Hello World!!!">
-<meta property="og:updated_time" content="2017-06-02T05:30:28.000Z">
+<meta property="og:description" content="本人程序员一名，目前在苏州工作。 领域.NetVue.jsJavaScript / Node.js以及其他 Web domain相关，无论前端还是后端 联系方式GitHub：微博：微信：邮箱：egger#outlook.com">
+<meta property="og:updated_time" content="2018-04-29T06:34:35.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="关于">
-<meta name="twitter:description" content="Hello World!!!">
+<meta name="twitter:title" content="Anduril">
+<meta name="twitter:description" content="本人程序员一名，目前在苏州工作。 领域.NetVue.jsJavaScript / Node.js以及其他 Web domain相关，无论前端还是后端 联系方式GitHub：微博：微信：邮箱：egger#outlook.com">
 
 
 
@@ -132,7 +139,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Mist',
     sidebar: {"position":"left","display":"hide","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
     fancybox: true,
     motion: true,
@@ -158,7 +165,7 @@
 
 
 
-  <title>关于 | Anduril</title>
+  <title> | Anduril</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -240,26 +247,6 @@
         </li>
       
         
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
@@ -276,6 +263,16 @@
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
             标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于我
           </a>
         </li>
       
@@ -301,7 +298,7 @@
   <div id="posts" class="posts-expand">
   <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">关于</h1>
+	<h1 class="post-title" itemprop="name headline"></h1>
 
 
 
@@ -309,7 +306,9 @@
 
     
     
-      <p>Hello World!!!</p>
+      <h3 id="本人"><a href="#本人" class="headerlink" title="本人"></a>本人</h3><p>程序员一名，目前在苏州工作。</p>
+<h3 id="领域"><a href="#领域" class="headerlink" title="领域"></a>领域</h3><p>.Net<br>Vue.js<br>JavaScript / Node.js<br>以及其他 Web domain相关，无论前端还是后端</p>
+<h3 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h3><p>GitHub：<br>微博：<br>微信：<br>邮箱：egger#outlook.com </p>
 
     
   </div>
@@ -339,8 +338,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/whitertree.jpg"
@@ -355,7 +363,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -366,7 +374,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -377,7 +385,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -430,6 +438,22 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#本人"><span class="nav-number">1.</span> <span class="nav-text">本人</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#领域"><span class="nav-number">2.</span> <span class="nav-text">领域</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#联系方式"><span class="nav-number">3.</span> <span class="nav-text">联系方式</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
 
@@ -445,8 +469,8 @@
       <div class="footer-inner">
         <div class="copyright" >
   
-  &copy; 
-  <span itemprop="copyrightYear">2017</span>
+  &copy;  2016 - 
+  <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
@@ -461,7 +485,7 @@
 <div class="theme-info">
   Theme -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
+    NexT.Mist
   </a>
 </div>
 
@@ -500,11 +524,12 @@
   
 
 
+
+
+
+
   
-
-
-
-
+  
 
 
 
@@ -531,7 +556,10 @@
   <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
   
-  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script type="text/javascript" src="/lib/three/three.min.js"></script>
+
+  
+  <script type="text/javascript" src="/lib/three/canvas_lines.min.js"></script>
 
 
   
