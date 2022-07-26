@@ -1,5 +1,7 @@
 # Anduril's Blog
 
+[![pages-build-deployment](https://github.com/andurils/andurils.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/andurils/andurils.github.io/actions/workflows/pages/pages-build-deployment)
+
 ## Contributing
 
 This site is built with [VitePress](https://github.com/vuejs/vitepress) and depends on [@vue/theme](https://github.com/vuejs/vue-theme). Site content is written in Markdown format located in `src`.
